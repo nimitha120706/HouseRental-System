@@ -1,0 +1,170 @@
+body {
+    background-color: #f5f8f8;
+    color: #1f2933;
+}
+
+.login-page {
+    background: linear-gradient(135deg, #0f766e 0%, #334155 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-card {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+}
+
+.login-card .card-header {
+    background: linear-gradient(135deg, #0f766e 0%, #334155 100%);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0f766e 0%, #334155 100%);
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 15px 20px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: rgba(255,255,255,0.16);
+    color: white;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.stat-card {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.08);
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card .card-icon {
+    font-size: 2.5rem;
+    opacity: 0.3;
+}
+
+.table-card {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.08);
+}
+
+.table-card .card-header {
+    background: linear-gradient(135deg, #0f766e 0%, #334155 100%);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-action {
+    margin: 0 2px;
+}
+
+.status-available {
+    background-color: #0f766e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.status-rented {
+    background-color: #be123c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.status-pending {
+    background-color: #f59e0b;
+    color: #111827;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.status-resolved {
+    background-color: #0f766e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.form-card {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.08);
+}
+
+.form-card .card-header {
+    background: linear-gradient(135deg, #0f766e 0%, #334155 100%);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-primary {
+    background-color: #0f766e;
+    border-color: #0f766e;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #115e59;
+    border-color: #115e59;
+}
+
+.btn-outline-primary {
+    color: #0f766e;
+    border-color: #0f766e;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: #0f766e;
+    border-color: #0f766e;
+}
+
+.bg-primary {
+    background-color: #0f766e !important;
+}
+
+.bg-success {
+    background-color: #2f855a !important;
+}
+
+.bg-info {
+    background-color: #3b82a0 !important;
+}
+
+.bg-warning {
+    background-color: #facc15 !important;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
